@@ -34,3 +34,8 @@ nav > ul > li > a:hover > ul {
   margin: 0;
   padding: 5px 10px;
 }
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
