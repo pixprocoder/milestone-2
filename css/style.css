@@ -6,14 +6,31 @@ nav {
   padding: 20px;
   background-color: rgb(225, 225, 225);
 }
-nav ul {
+nav > ul {
   display: flex;
 }
 nav ul li {
   list-style: none;
   margin-right: 15px;
 }
+nav ul li a:hover {
+  color: orange;
+}
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+nav > ul > li > a:hover > ul {
+  display: block;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+.dropdown li {
+  margin: 0;
+  padding: 5px 10px;
 }
