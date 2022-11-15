@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Album</title>
+    <style>
+      .photo-album {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+      }
+      .photo-frame {
+        width: 300px;
+        height: 218px;
+
+        border-radius: 10px;
+        position: relative;
+      }
+      .photo img {
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .photo-details {
+        display: none;
+        position: absolute;
+        width: 300px;
+        top: 0;
+      }
+      .photo-frame:hover .photo-details {
+        display: block;
+        cursor: pointer;
+        border-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background-color: rgba(255, 197, 90, 0.5);
+      }
+
+      .photo-details p {
+        padding: 0 8px;
+      }
+      .photo-details h4 {
+        background-color: black;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        margin-top: 0;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Photo Album</h1>
+    <section>
+      <h3>Food album here you can see</h3>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/food.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h4>Food Khabo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              sequi omnis dolores nihil reiciendis, facilis natus dolorem. Unde
+              incidunt obcaecati deleniti, aliquid alias error ab, deserunt in
+              consequatur facilis quae?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
