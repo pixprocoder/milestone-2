@@ -14,9 +14,10 @@
       .photo-frame {
         width: 300px;
         height: 218px;
-
+        cursor: pointer;
         border-radius: 10px;
         position: relative;
+        overflow: hidden;
       }
       .photo img {
         width: 100%;
@@ -31,11 +32,16 @@
       }
       .photo-frame:hover .photo-details {
         display: block;
-        cursor: pointer;
+
         border-radius: 10px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         background-color: rgba(255, 197, 90, 0.5);
+      }
+      .photo-frame:hover .photo {
+        /* transform: scale(1.5) skew(45deg); */
+        transform: scale(1.5) rotate(360deg);
+        transition: transform 0.8s ease-in-out;
       }
 
       .photo-details p {
