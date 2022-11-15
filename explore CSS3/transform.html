@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transform</title>
+    <style>
+      .container {
+        width: 200px;
+        height: 200px;
+        background-color: cyan;
+        margin: 4px;
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .inner {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(62, 66, 66);
+        margin: 4px;
+        transition: transform 0.3s ease-in;
+      }
+      .inner:hover {
+        transform: translate(33px, 56px) scale(0.25) rotate(180deg);
+      }
+    </style>
   </head>
   <body>
     <h1>Exploring Transform</h1>
+    <div class="container box">
+      <div class="inner">box-1</div>
+    </div>
+    <div class="container box">
+      <div class="inner">box-2</div>
+    </div>
+    <div class="container box">
+      <div class="inner">box-3</div>
+    </div>
   </body>
 </html>
