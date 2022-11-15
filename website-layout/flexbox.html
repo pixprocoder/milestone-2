@@ -8,20 +8,53 @@
     <style>
       .container {
         border: 2px solid green;
+        width: 100vw;
+        height: 600px;
+        display: flex;
+        justify-content: stretch;
+        /* align-items: center; */
+      }
+      #box-2 {
+        width: 300px;
+        order: 1;
+      }
+      #box-1 {
+        flex-grow: 3;
+        display: flex;
+        justify-content: stretch;
+      }
+      .inner {
+        flex-grow: 1;
+        margin: 5px;
+        background-color: gray;
       }
       .box {
-        width: 100px;
-        height: 100px;
         border: 1px dashed gray;
+        margin: 20px;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="box">BOX-1</div>
-      <div class="box">BOX-2</div>
-      <div class="box">BOX-3</div>
-      <div class="box">BOX-4</div>
+      <div id="box-2" class="box">
+        <ul>
+          <li>list-1</li>
+          <li>list-2</li>
+          <li>list-3</li>
+          <li>list-4</li>
+          <li>list-5</li>
+          <li>list-6</li>
+          <li>list-7</li>
+          <li>list-8</li>
+          <li>list-9</li>
+          <li>list-10</li>
+        </ul>
+      </div>
+      <div id="box-1" class="box">
+        <div class="inner">inner1</div>
+        <div class="inner">inner 2</div>
+        <div class="inner">inner 3</div>
+      </div>
     </div>
   </body>
 </html>
