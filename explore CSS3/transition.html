@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transition: width 0.5s, height 0.5s, color 0.7s, font-size 1.2s,
+          border-radius 0.5s;
+      }
+      div:hover {
+        width: 150px;
+        height: 150px;
+        color: yellow;
+        font-size: 2rem;
+
+        cursor: pointer;
+        border-radius: 100px;
+      }
+      p {
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exploring Transition</h1>
+    <section class="container">
+      <div>
+        <p>HI,</p>
+      </div>
+      <div>
+        <p>I</p>
+      </div>
+      <div>
+        <p>❤💘</p>
+      </div>
+      <div>
+        <p>YOU</p>
+      </div>
+      <div>
+        <p>😘</p>
+      </div>
+    </section>
+  </body>
+</html>
