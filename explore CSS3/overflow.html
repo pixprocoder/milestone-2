@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <style>
+      #box-1 {
+        width: 100vw;
+        height: 200px;
+        background-color: bisque;
+        border: 2px solid;
+        overflow: scroll;
+        overflow-x: hidden;
+      }
+
+      #box-2 {
+        width: 200px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: bisque;
+        border: 2px solid;
+      }
+      p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exploring Overflow</h1>
+    <div class="box" id="box-1">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ex vel quo
+        atque ab amet dignissimos iste facilis ducimus minus. Quam, quo
+        delectus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
+        ex vel quo atque ab amet dignissimos iste facilis ducimus minus. Quam,
+        quo delectus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Ea ex vel quo atque ab amet dignissimos iste facilis ducimus minus.
+        Quam, quo delectus? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Ratione beatae quaerat cupiditate tempore illo, quae non fugiat
+        iusto sed architecto error. Magnam nam officia amet? Consectetur quod ea
+        quia doloribus, exercitationem molestias saepe modi deleniti sit et
+        alias natus fugiat beatae nemo! Corporis laborum tempora sunt dolorum.
+        Accusamus, numquam error doloribus voluptatibus est excepturi et in
+        molestias eaque odit id dolorem dignissimos quo fuga vitae optio
+        inventore. Ipsa, quam. Veniam eos repudiandae quidem quisquam aliquid
+        minus? Error odit adipisci dolor ex debitis neque autem in sequi
+        eligendi delectus, dolore unde soluta magnam? Doloribus eos quos fuga
+        architecto, cupiditate, autem, voluptatem mollitia sequi sint a id
+        alias! Recusandae doloremque illum eum voluptates explicabo delectus
+        nesciunt voluptas. Ullam laudantium recusandae, quasi veniam voluptatem
+        animi! Pariatur obcaecati natus quis tenetur, placeat ab aliquam ad rem
+        deleniti! Quibusdam rem unde suscipit, non ipsum dicta beatae minima
+        obcaecati commodi voluptatibus, sed enim nam numquam laudantium veniam
+        error fuga? Culpa in eum autem sit tenetur provident enim maxime ut nam.
+        Porro saepe ipsam nobis dignissimos sint magnam vero illo omnis culpa
+        dolores. Reiciendis reprehenderit quis quidem illo facilis praesentium
+        accusamus laudantium, ut eius culpa rem nulla? A officia nemo veniam
+        debitis, culpa maxime rerum libero in praesentium id voluptas rem sit.
+        Aperiam placeat soluta blanditiis quae distinctio recusandae hic!
+        Veritatis non distinctio deleniti nam amet iusto mollitia atque officiis
+        laudantium. Earum accusantium, dolorem nihil error soluta nulla
+        sapiente, consectetur corrupti, illum illo cum nam blanditiis? Commodi
+        ratione labore reprehenderit, optio quibusdam harum praesentium nesciunt
+        nulla fugit veritatis voluptatem sequi iure aliquid cum dolorum
+        consequuntur magni odit voluptate illum cupiditate. Amet cumque qui
+        aperiam molestiae quam tempore sed natus placeat facere veniam aliquid
+        eaque quo expedita provident maxime, dolorem eveniet aliquam officia
+        commodi, ut sequi! Voluptas perferendis, officia earum minima eveniet
+        qui! Minus unde modi ut ipsam.
+      </p>
+    </div>
+    <div class="box" id="box-2">
+      <p
+        title="Sed deleniti odit consequatur asperiores sunt autem. Corporis, commodi
+      repellat, at consectetur fugiat cumque, provident tenetur voluptate
+      vitae aliquid magni similique accusamus suscipit."
+      >
+        Sed deleniti odit consequatur asperiores sunt autem. Corporis, commodi
+        repellat, at consectetur fugiat cumque, provident tenetur voluptate
+        vitae aliquid magni similique accusamus suscipit.
+      </p>
+    </div>
+    <div class="box" id="box-3">
+      <p>
+        Repellat atque ut perferendis aliquam aspernatur iste obcaecati quam
+        dicta consequatur cum. Eum sequi deserunt ullam quos id laborum odit
+        maiores et quam!
+      </p>
+    </div>
+    <div class="box" id="box-4">
+      <p>
+        Vero adipisci accusantium, illum aliquam eius nemo esse nobis dolorem
+        nulla soluta similique fuga sunt dolor nisi dolore quo. Assumenda
+        perferendis minus quasi.
+      </p>
+    </div>
+  </body>
+</html>
